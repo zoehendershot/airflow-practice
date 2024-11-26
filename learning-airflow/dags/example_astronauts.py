@@ -35,8 +35,7 @@ import requests
 # instantiate a DAG with the @dag decorator and set DAG parameters (see: https://www.astronomer.io/docs/learn/airflow-dag-parameters)
 @dag(
     start_date=datetime(2024, 1, 1),  # date after which the DAG can be scheduled
-    #schedule="@daily",  # see: https://www.astronomer.io/docs/learn/scheduling-in-airflow for options
-    schedule='*/5 * * * *',
+    schedule="@daily",  # see: https://www.astronomer.io/docs/learn/scheduling-in-airflow for options
     catchup=False,  # see: https://www.astronomer.io/docs/learn/rerunning-dags#catchup
     max_consecutive_failed_dag_runs=3,  # auto-pauses the DAG after 5 consecutive failed runs, experimental
     doc_md=__doc__,  # add DAG Docs in the UI, see https://www.astronomer.io/docs/learn/custom-airflow-ui-docs-tutorial

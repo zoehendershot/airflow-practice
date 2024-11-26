@@ -30,16 +30,16 @@ You should also be able to access your Postgres Database at `localhost:5432/post
 
 ## Add a new DAG
 
-1. Within the Airflow UI, go to the Admin-->Variables from the top navigation menu.
+1. Within the Airflow UI, go to the `Admin -> Variables` from the top navigation menu.
 2. Create one variable entry (key-value pair):
-    - MONGOPASS - assigned the value given to you in the instruction page.
-3. Add a new file `simple.py` within the `dags` subdirectory of the project. The code for this page can be found at
-4. Update the BUCKET variable in the code to `xxxxx`.
-5. Update the DB variable in the code to your UVA computing ID.
-6. Save the file and return to the Airflow UI. Refresh the page or wait a couple of minutes for your DAG to appear. It should be in a paused state.
-7. Unpause your DAG and run it once by hand.
-8. You can use `MONGO-ATLAS` from your fork of the [`mongodb-practice` repository](https://github.com/nmagee/mongodb-practice/) to review the values your code inserted into the database. Be sure to select the correct database.
-9. Take a screenshot of the inserted document in MongoDB and submit it for the lab.
+    - MONGOPASS - assigned the value given to you in the instruction page (same as Lab 9).
+3. Add a new file `simple.py` within the `dags` subdirectory of the project. Paste in the code found here https://gist.github.com/nmagee/1ef0216ca71079aa3078ff46aefd325d
+4. Update the database name in the code on line 18 to your UVA computing ID.
+5. Save the file and return to the Airflow UI. Refresh the page or wait a couple of minutes for your DAG to appear. It should be in a paused state.
+6. Unpause your DAG and run it once by hand.
+7. You can use `MONGO-ATLAS` from Lab 9 to review the values your code inserted into the database. Be sure to select the correct database.
+8. Take a screenshot of the inserted document in MongoDB and submit it for the lab.
+9. Answer this question: How many documents were inserted into your collection?
 
 ## Cleaning Up
 
