@@ -1,17 +1,6 @@
 # Lab 10 - Airflow Practice
 
-Get hands-on experience with Apache Airflow
-
-
-## Table of Contents
-
-This repository contains 2 projects for demonstrating the capabilities and use cases of Airflow.
-
-- [ETL](etl/README.md) A project for learning the basics of ETL with Airflow
-- [Learning Airflow](learning-airflow/README.md) A project for learning the basics of Airflow
-
-## Purpose of This Repository
-These templates are designed to help new users learn and try Airflow quickly. 
+Get hands-on experience with Apache Airflow.
 
 ## Pre-requisites:
 
