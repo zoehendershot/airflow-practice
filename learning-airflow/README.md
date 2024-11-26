@@ -2,8 +2,6 @@
 
 Welcome to Astronomer! This project was generated after you ran 'astro dev init' using the Astronomer CLI. This readme describes the contents of the project, as well as how to run Apache Airflow on your local machine.
 
-Astronomer is the best place to host Apache Airflow -- try it out with a free trial at [astronomer.io](https://www.astronomer.io/).
-
 # Project Contents
 
 Your Astro project contains the following files and folders:
@@ -35,11 +33,3 @@ Note: Running 'astro dev start' will start your project with the Airflow Webserv
 3. Access the Airflow UI for your local Airflow project. To do so, go to http://localhost:8080/ and log in with 'admin' for both your Username and Password.
 
 You should also be able to access your Postgres Database at 'localhost:5432/postgres'.
-
-# Deploy Your Project to Astronomer
-
-If you have an Astronomer account, pushing code to a Deployment on Astronomer is simple. For deploying instructions, refer to Astronomer documentation: https://docs.astronomer.io/cloud/deploy-code/
-
-# Contact
-
-The Astronomer CLI is maintained with love by the Astronomer team. To report a bug or suggest a change, reach out to our support.
