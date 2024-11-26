@@ -28,7 +28,7 @@ Note: Running `astro dev start` will start your project with the Airflow Webserv
 
 You should also be able to access your Postgres Database at `localhost:5432/postgres`.
 
-## Add your own DAG
+## Add a new DAG
 
 1. Within the Airflow UI, go to the Admin-->Variables from the top navigation menu.
 2. Create one variable entry (key-value pair):
