@@ -9,7 +9,7 @@ Get hands-on experience with Apache Airflow.
 
 ## Run Airflow Locally
 
-1. Clone this project and navigate to the `learning-airflow` project subdirectory.
+1. Fork this project, clone it, open it locally and navigate to the `learning-airflow` project subdirectory.
 
 2. Start Airflow for that project on your local machine by running `astro dev start` from within that directory.
 
