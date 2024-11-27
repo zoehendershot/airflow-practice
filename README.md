@@ -44,7 +44,7 @@ You should also be able to access your Postgres Database at `localhost:5432/post
 ### Bonus!
 
 - Explore the other DAG in your Airflow UI ("example_astronauts")
-- Cd into the `etl` folder and start Airflow from within that folder and explore how those DAGs work. (You must shut down one Airflow environment before you can spin up another.)
+- Cd into the `etl` folder and start Airflow from within that folder to explore how those DAGs work. (You must shut down one Airflow environment before you can spin up another.)
 
 ## Cleaning Up
 
