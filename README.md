@@ -37,14 +37,14 @@ You should also be able to access your Postgres Database at `localhost:5432/post
 4. Update the database name in the code on line 18 to your UVA computing ID.
 5. Save the file and return to the Airflow UI. Refresh the page or wait a couple of minutes for your DAG to appear. It should be in a paused state.
 6. Unpause your DAG and run it once by hand.
-
-## Bonus!
-
-- Explore the other DAG in your Airflow UI ("example_astronauts")
-- Cd into the `etl` folder and start Airflow from within that folder and explore how those DAGs work. (You must shut down one Airflow environment before you can spin up another.)
 8. You can use `MONGO-ATLAS` from Lab 9 to review the values your code inserted into the database. Be sure to select the correct database.
 9. Take a screenshot of the inserted document in MongoDB and submit it for the lab.
 10. Answer this question: How many documents were inserted into your collection?
+
+### Bonus!
+
+- Explore the other DAG in your Airflow UI ("example_astronauts")
+- Cd into the `etl` folder and start Airflow from within that folder and explore how those DAGs work. (You must shut down one Airflow environment before you can spin up another.)
 
 ## Cleaning Up
 
