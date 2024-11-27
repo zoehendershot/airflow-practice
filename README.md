@@ -38,7 +38,7 @@ You should also be able to access your Postgres Database at `localhost:5432/post
 5. Save the file and return to the Airflow UI. Refresh the page or wait a couple of minutes for your DAG to appear. It should be in a paused state.
 6. Unpause your DAG and run it once by hand.
 8. You can use `MONGO-ATLAS` from Lab 9 to review the values your code inserted into the database. Be sure to select the correct database.
-9. Take a screenshot of the inserted document in MongoDB and submit it for the lab.
+9. Take a screenshot of the inserted documents in MongoDB and submit it for the lab.
 10. Answer this question: How many documents were inserted into your collection?
 
 ### Bonus!
